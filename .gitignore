@@ -1,0 +1,37 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Persistent JSON files for processed punches
+processed_logs.json
+last_seen.txt
+
+# Optional: compiled distributions
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Optional: pipenv
+Pipfile.lock
